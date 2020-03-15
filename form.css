@@ -1,0 +1,43 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+}
+form#signup {
+	max-width: 800px;
+	padding: 15px;
+	background: #5899d0 url(images/background.jpg) no-repeat 0px -70px;
+}
+
+form#signup h2 {
+	margin: 0px;
+	color: #fff;
+	font-size: 2em;
+}
+
+form#signup h3 {
+	margin: -5px 0px 12px 0px;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+form#signup h4 {
+	margin: 15px 0px 3px 0px;
+	color: #fff;
+}
+
+form#signup p,
+form#signup label {
+	marin: 0px 0px 6px 0px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+form#signup fieldset {
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	margin: 15px 0px 15px 0px;
+	padding: 0px 10px 10px 20px;
+}
