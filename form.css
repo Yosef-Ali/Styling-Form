@@ -59,3 +59,20 @@ form#signup textarea {
 form#signup textarea:focus {
 	background-color: #fff;
 }
+
+form#signup select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	font-size: 0.9em;
+	background: #588fd0 url(images/icons_arrows.svg) no-repeat right 8px;
+	background-size: 30px 20px;
+	color: #ffd34c;
+	padding: 7px 45px 7px 10px;
+	border: 1px solid #fff;
+}
+form#signup select::-ms-expand {
+	display: none;
+}
