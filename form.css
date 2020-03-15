@@ -46,3 +46,10 @@ form#signup legend {
 	color: #254581;
 	font-size: 0.9em;
 }
+
+form#signup textarea {
+	font-size: 0.9em;
+	padding: 5px;
+	border: none;
+	color: #254581;
+}
