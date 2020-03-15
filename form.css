@@ -73,6 +73,31 @@ form#signup select {
 	padding: 7px 45px 7px 10px;
 	border: 1px solid #fff;
 }
+
 form#signup select::-ms-expand {
 	display: none;
+}
+
+form#signup input[type='checkbox'],
+form#signup input[type='radio'] {
+	width: 20px;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+}
+form#signup input[type='checkbox'] + label,
+form#signup input[type='radio'] + label {
+	display: inline-block;
+	margin-left: -20px;
+	padding: 4px 0px 0px 27px;
+	background: url(images/icons_check_radio.svg) no-repeat;
+	background-size: 20px 80px;
+	line-height: 16px;
+}
+
+form#signup input[type='checkbox'] + lable {
+	background-position: 0px 0px;
+}
+form#signup input[type='radio'] + label {
+	background-position: 0px -40px;
 }
