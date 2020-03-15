@@ -41,3 +41,8 @@ form#signup fieldset {
 	margin: 15px 0px 15px 0px;
 	padding: 0px 10px 10px 20px;
 }
+
+form#signup legend {
+	color: #254581;
+	font-size: 0.9em;
+}
